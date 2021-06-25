@@ -56,7 +56,7 @@ public class CvManager implements CvService{
 			
 			
 			@SuppressWarnings("unchecked")
-			Map<String, String> uploader = (Map<String, String>) 
+			Map<?, String> uploader = (Map<?, String>) 
 					cloudinaryService.save(file).getData(); 
 			String imageUrl= uploader.get("url");
 			Cv Cv = cvDao.getOne(cvId);

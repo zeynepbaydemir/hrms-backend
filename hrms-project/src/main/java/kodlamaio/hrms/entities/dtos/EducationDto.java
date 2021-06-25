@@ -1,5 +1,6 @@
 package kodlamaio.hrms.entities.dtos;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -23,7 +24,7 @@ public class EducationDto {
 	private int graduateId;
 	private String graduateDescription;
 	private String schoolDepartment;
-	private Date startedDate;
-	private Date endedDate;
-	private Date createdDate;
+	private LocalDate startedDate;
+	private LocalDate endedDate;
+	private LocalDate createdDate;
 }

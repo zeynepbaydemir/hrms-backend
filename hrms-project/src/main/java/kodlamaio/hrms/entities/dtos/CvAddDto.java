@@ -1,5 +1,6 @@
 package kodlamaio.hrms.entities.dtos;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -21,7 +22,7 @@ public class CvAddDto {
 	private String linkedLink;
 	private String photo;
 	private String description;
-	private Date createdDate;
-	private Date updatedDate;
+	private LocalDate createdDate;
+	private LocalDate updatedDate;
 
 }

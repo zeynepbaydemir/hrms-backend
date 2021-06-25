@@ -1,5 +1,6 @@
 package kodlamaio.hrms.entities.dtos;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -26,8 +27,8 @@ public class CvGetDto {
 	private String linkedLink;
 	private String photo;
 	private String description;
-	private Date createdDate;
-	private Date updatedDate;
+	private LocalDate createdDate;
+	private LocalDate updatedDate;
 	private List<JobExperience> jobExperiences;
 	private List<Language> languages;
 	private List<Technology> technologies;
